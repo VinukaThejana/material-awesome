@@ -17,11 +17,11 @@ return {
     delayed_screenshot = 'flameshot full -p ~/Pictures/ScreenShots -d 5000',
     browser = 'firefox',
     editor = 'kitty -e nvim', -- gui text editor
-    social = '',
+    social = 'discord --start-minimized',
     game = rofi_command,
     files = 'nautilus',
     ranger = 'kitty -e ranger',
-    music = rofi_command 
+    music = "kitty -e mpv --shuffle --no-audio-display /home/vinukakodituwakku/Music"
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
